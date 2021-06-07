@@ -1,7 +1,6 @@
 # zsh-tmux-man
 
-See the manpage in a tmux pane for the command you've input, without clearing
-the command line.
+Read man in a tmux pane without losing what you've input.
 
 ## Install
 
