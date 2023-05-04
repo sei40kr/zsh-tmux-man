@@ -20,7 +20,7 @@ __tmux_man() {
     return
   fi
 
-  tmux splitw -l '30%' "man $(printf "%q" "$name")"
+  eval "tmux splitw ${ZSH_TMUX_MAN_SPLITW_OPTS} \"man $(printf '%q' "$name")\""
 }
 
 zle -N __tmux_man

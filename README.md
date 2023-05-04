@@ -15,3 +15,9 @@ zinit light sei40kr/zsh-tmux-man
 ```zsh
 zplug sei40kr/zsh-tmux-man
 ```
+
+## Customization
+
+| Environment variable       | Default value | Description                                                                                   |
+| :------------------------- | :------------ | :-------------------------------------------------------------------------------------------- |
+| `ZSH_TMUX_MAN_SPLITW_OPTS` | `-l 30%`      | The options passed to `tmux split-window` when opening a new pane. See `tmux(1)` for details. |
